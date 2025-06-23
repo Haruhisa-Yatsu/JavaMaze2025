@@ -38,16 +38,6 @@ public class MazeFrame extends MyFrame {
 				_mazeData[y][x] = cellType;
 			}
 		}
-		// 以下に迷路の生成処理を記述せよ
-		// 
-		// 赤：ゴール
-		// 青：スタート
-		// 白：道
-		// 黒：壁
-		//
-		// プロジェクトを読んで構造を把握するところも問題のうちになります。
-
-		// とても参考になるページ→:https://www5d.biglobe.ne.jp/stssk/maze/make.html
 	}
 
 	public void run() {
